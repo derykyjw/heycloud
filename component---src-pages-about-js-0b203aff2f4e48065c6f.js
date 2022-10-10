@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_hello_world=self.webpackChunkgatsby_starter_hello_world||[]).push([[682],{4633:function(e,t,l){l.r(t),l.d(t,{default:function(){return a}});var n=l(7294),r=l(8661);function a(){return n.createElement(r.Z,null,n.createElement("main",{className:"page"},n.createElement("h1",null,"About heycloud")))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-0b203aff2f4e48065c6f.js.map
