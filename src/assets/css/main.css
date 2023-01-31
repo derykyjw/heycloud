@@ -209,11 +209,8 @@ button.block {
     width: 90vw;
     max-width: var(--max-width);
     margin: 0 auto;
-}
-.page {
     min-height: calc(100vh - (6rem + 4rem));
 }
-
 
 /*#########*/
 /* END OF GLOBALS */
@@ -224,8 +221,8 @@ button.block {
 /*#########*/
 
 .home-main {
-    
     align-items: center;
+    min-height: calc(100vh - (6rem + 4rem));
 }
 
 .home-main h2 {
@@ -234,11 +231,14 @@ button.block {
     color: rgb(61, 15, 104);
 }
 
-.home-page {
-    display: grid;
+.home-section {
+    background-color: var(--primary-300);
+}
+
+.home-body {
     gap: 2rem 3rem;
     padding: 3rem;
-    background-color: var(--primary-300);
+    display: grid;
 }
 
 .home-partners {
@@ -252,13 +252,12 @@ button.block {
 }
 
 @media screen and (min-width: 992px) {
-    .home-page {
+    .home-body {
         display: grid;
         grid-gap: 50px;  
         grid-template-columns: 1fr 1fr;
         align-items: center;
-        width: 90vw;
-        /* max-width: 1300px; */
+        max-width: 1300px;
         margin: 0 auto;
         padding: 10rem;
 

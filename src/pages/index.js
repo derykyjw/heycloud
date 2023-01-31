@@ -8,16 +8,18 @@ export default function index({data}) {
   return (
     <Layout>
       <main className='home-main'>
-        <section className='home-page'>
-          <div>
-            <h2>Cloud Solutions</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            </p>
-          </div>
-          <div>
-            <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
+        <section className='home-section'>
+          <div className='home-body'>
+            <div>
+              <h2>Cloud Solutions</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+            </div>
+            <div>
+              <GatsbyImage image={data.file.childImageSharp.gatsbyImageData} />
+            </div>
           </div>
         </section>
         <section className='home-partners'>

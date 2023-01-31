@@ -11,7 +11,7 @@ export default function Navbar() {
       <div className="nav-center">
         <div className="nav-header">
           <Link to='/'>
-            <StaticImage src="../assets/images/logo.png" alt="HeyCloud" />
+            <img src= {logo} alt="HeyCloud" />
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <FaAlignJustify />
