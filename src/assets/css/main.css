@@ -55,6 +55,8 @@
   --bodyFont: "Montserrat", sans-serif;
   --smallText: 0.8em;
   --extraSmallText: 0.7em;
+  --creditsText: 0.5em;
+
   /* rest */
   --backgroundColor: var(--grey-0);
   --textColor: var(--grey-1000);
@@ -92,7 +94,7 @@ body {
 p {
   margin: 0;
   margin-bottom: 1rem;
-  max-width: 40em;
+  /* max-width: 40em; */
 }
 
 h1,
@@ -132,11 +134,6 @@ h5 {
 small,
 .text-small {
   font-size: var(--smallText);
-}
-
-ul {
-    padding: 0;
-    list-style-type: none;
 }
 
 a {
@@ -210,6 +207,7 @@ button.block {
     max-width: var(--max-width);
     margin: 0 auto;
     min-height: calc(100vh - (6rem + 4rem));
+    padding-top: 1.5rem;
 }
 
 /*#########*/
@@ -261,11 +259,8 @@ button.block {
         margin: 0 auto;
         padding: 10rem;
 
-    }
-
-    
+    }  
 }
-
 
 /*#########*/
 /* Navbar */
@@ -386,22 +381,23 @@ button.block {
 /*#########*/
 .page-footer {
     text-align: center;
-    height: 4rem;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     background: var(--black);
     color: var(--white);
+    padding: 0.5rem;
   }
-.page-footer h5 {
-    margin-bottom: 0;
-}
+
 .page-footer p {
     margin-bottom: 0;
 }
 .page-footer span,
 .page-footer a {
     color: var(--primary-500);
+}
+.img-credits {
+    font-size: var(--creditsText);
 }
 
 /*#########*/
