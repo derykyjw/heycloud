@@ -11,23 +11,23 @@ export default function contact() {
                 <form classname="form contact-form" action="https://formspree.io/f/meqweppd" method="POST">
                     <div className='form-row'>
                         <label htmlFor="fname">First name</label>
-                       <input type="text" name="First Name" id="fname" />
+                       <input type="text" name="First Name" id="fname" required/>
                     </div>
                     <div className='form-row'>
                         <label htmlFor="lname">Last name</label>
-                        <input type="text" name="Last Name" id="lname" />
+                        <input type="text" name="Last Name" id="lname" required/>
                     </div>
                     <div className='form-row'>
                         <label htmlFor="email">Email Address</label>
-                        <input type="text" name="Email" id="email" />
+                        <input type="text" name="Email" id="email" required/>
                     </div>
                     <div className='form-row'>
                         <label htmlFor="subject">Subject</label>
-                        <input type="text" name="Subject" id="subject" />
+                        <input type="text" name="Subject" id="subject" required/>
                     </div>
                     <div className='form-row'>
                         <label htmlFor="message">Message</label>
-                        <textarea name="Message" id="message"></textarea>
+                        <textarea name="Message" id="message" required></textarea>
                     </div>
                     <button type='submit' className='btn block'>
                         submit
