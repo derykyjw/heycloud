@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Link} from 'gatsby'
 import {FaAlignJustify} from "react-icons/fa"
-import logo from "../assets/images/logo.png"
+// import logo from "../assets/images/logo.png"
 import { StaticImage } from 'gatsby-plugin-image'
 
 export default function Navbar() {

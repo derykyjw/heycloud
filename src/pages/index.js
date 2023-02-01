@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import { graphql } from 'gatsby'
-import { StaticImage, GatsbyImage, getImage } from 'gatsby-plugin-image'
+import { StaticImage, GatsbyImage } from 'gatsby-plugin-image'
 
 export default function index({data}) {
   

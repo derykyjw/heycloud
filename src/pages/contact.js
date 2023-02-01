@@ -29,7 +29,6 @@ export default function contact() {
                         <label htmlFor="message">Message</label>
                         <textarea name="Message" id="message"></textarea>
                     </div>
-                    <div class="g-recaptcha" data-sitekey="heycloud-custom_reCAPTCHA"/>
                     <button type='submit' className='btn block'>
                         submit
                     </button>
