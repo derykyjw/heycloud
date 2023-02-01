@@ -249,7 +249,7 @@ button.block {
     text-align: center;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1050px) {
     .home-body {
         display: grid;
         grid-gap: 50px;  

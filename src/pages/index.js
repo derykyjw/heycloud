@@ -40,7 +40,11 @@ export const query = graphql`
   query {
     file(relativePath: {eq: "banner.png"}) {
       childImageSharp {
-        gatsbyImageData(layout:CONSTRAINED)
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]
+        )
       }
     }
   }

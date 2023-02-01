@@ -4,31 +4,32 @@ import Layout from '../components/Layout'
 export default function contact() {
   return (
     <Layout>
-        <main className='page'> 
+        <main className='page'>
             <section className='contact-page'>
                 <h2>Contact Us</h2>
                 <h4>Please complete the form below to get in touch</h4>
-                <form classname="form contact-form">
+                <form classname="form contact-form" action="https://formspree.io/f/meqweppd" method="POST">
                     <div className='form-row'>
                         <label htmlFor="fname">First name</label>
-                       <input type="text" name="fname" id="fname" />
+                       <input type="text" name="First Name" id="fname" />
                     </div>
                     <div className='form-row'>
                         <label htmlFor="lname">Last name</label>
-                        <input type="text" name="lname" id="lname" />
+                        <input type="text" name="Last Name" id="lname" />
                     </div>
                     <div className='form-row'>
                         <label htmlFor="email">Email Address</label>
-                        <input type="text" name="email" id="email" />
+                        <input type="text" name="Email" id="email" />
                     </div>
                     <div className='form-row'>
                         <label htmlFor="subject">Subject</label>
-                        <input type="text" name="subject" id="subject" />
+                        <input type="text" name="Subject" id="subject" />
                     </div>
                     <div className='form-row'>
                         <label htmlFor="message">Message</label>
-                        <textarea name="message" id="message"></textarea>
+                        <textarea name="Message" id="message"></textarea>
                     </div>
+                    <div class="g-recaptcha" data-sitekey="heycloud-custom_reCAPTCHA"/>
                     <button type='submit' className='btn block'>
                         submit
                     </button>
