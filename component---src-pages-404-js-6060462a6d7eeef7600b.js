@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkheycloud_website=self.webpackChunkheycloud_website||[]).push([[883],{429:function(e,n,t){t.r(n),t.d(n,{default:function(){return c}});var l=t(7294),u=t(6571);function c(){return l.createElement(u.Z,null,l.createElement("main",{className:"error-page"},l.createElement("section",null,l.createElement("h1",null,"404"),l.createElement("h3",null,"page not found"))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-6060462a6d7eeef7600b.js.map
