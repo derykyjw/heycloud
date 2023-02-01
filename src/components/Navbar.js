@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {Link} from 'gatsby'
 import {FaAlignJustify} from "react-icons/fa"
-// import logo from "../assets/images/logo.png"
+import logo from "../assets/images/logo.png"
 import { StaticImage } from 'gatsby-plugin-image'
 
 export default function Navbar() {
@@ -11,12 +11,7 @@ export default function Navbar() {
       <div className="nav-center">
         <div className="nav-header">
           <Link to='/'>
-            {/* <img src= {logo} alt="HeyCloud" /> */}
-            <StaticImage 
-              src="../assets/images/logo.png" 
-              alt="HeyCloud"
-              placeholder='tracedSVG'
-            />
+            <img src= {logo} alt="HeyCloud" />
           </Link>
           <button className="nav-btn" onClick={() => setShow(!show)}>
             <FaAlignJustify />
